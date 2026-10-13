@@ -1,0 +1,16 @@
+{
+  "name": "pengcoins",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PengCoins - a penguin-powered experimental cryptocurrency",
+  "license": "UNLICENSED",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test"
+  }
+}
